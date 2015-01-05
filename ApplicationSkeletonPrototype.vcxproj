@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B59E8470-C241-410B-A50B-5090175900E3}</ProjectGuid>
+    <ProjectGuid>{144A5A02-EB06-4465-BDF1-B1EFAC77C86B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TestPad</RootNamespace>
+    <RootNamespace>ApplicationSkeletonPrototype</RootNamespace>
     <ProjectName>ApplicationSkeletonPrototype</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
