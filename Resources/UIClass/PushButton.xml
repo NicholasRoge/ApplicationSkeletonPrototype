@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<UIClass>
+	<Name>PushButton</Name>
+	<Extends>Button</Name>
+
+	<Prototype
+		onClose="Window_Class_OnClose"
+	>
+	</Prototype>
+</UIClass>

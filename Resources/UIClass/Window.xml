@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<UIClass>
+	<Capabilities>
+    <ChildrenAllowed>true</ChildrenAllowed>
+  </Capabilities>
+
+	<Prototype
+		onClose="Window_Class_OnClose"
+	>
+	</Prototype>
+</UIClass>

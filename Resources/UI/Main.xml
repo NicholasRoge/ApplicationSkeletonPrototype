@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<UI>
+  <Window
+    height="95"
+    onCreate="MainWindow_OnClose"
+    width="345"
+	>
+    <PushButton
+      height="25"
+      onClick="MadButton_OnClick"
+      onCreate="MadButton_OnCreate"
+      onDestroy="MadButton_OnDestroy"
+      padding="15"
+      width="300"
+		>
+      Do Not Click
+    </PushButton>
+  </Window>
+</UI>

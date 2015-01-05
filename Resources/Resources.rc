@@ -1,0 +1,22 @@
+#include "./Resources.h"
+
+Application_Config XML "./Application.xml"
+Application_UI XML "./UI/Main.xml"
+Application_UIClass_PushButton XML "./UIClass/PushButton.xml"
+Application_UIClass_Window XML "./UIClass/Window.xml"
+
+STRINGTABLE
+{
+	Application_Title "The Angry Button"
+
+	Application_Button_Class_Name "Button"
+	Application_Window_Class_Name "Window"
+	Application_Window_Class_OnClose "Window_Class_OnClose"
+
+	Application_MadButton_Class "Button"
+	Application_MadButton_OnClick "MadButton_OnClick"
+	Application_MadButton_OnCreate "MadButton_OnCreate"
+	Application_MadButton_OnDestroy "MadButton_OnDestroy"
+	Application_MainWindow_Class "Window"
+	Application_MainWindow_OnCreate "MainWindow_OnCreate"
+}
