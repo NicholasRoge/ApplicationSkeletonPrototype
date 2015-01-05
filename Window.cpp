@@ -9,7 +9,7 @@ EXPORT void MainWindow_OnCreate(OS::Window& window)
 	window.setDimensions(345,95);
 }
 
-EXPORT void Window_Class_OnClose(OS::Window& window)
+EXPORT void UIClass_Window_OnClose(OS::Window& window)
 {
 	OS::StopMessageLoop();
 

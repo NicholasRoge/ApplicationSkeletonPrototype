@@ -4,8 +4,13 @@
     <ChildrenAllowed>true</ChildrenAllowed>
   </Capabilities>
 
+  <LifecycleHandlers>
+    <!-- Automatically find these based of name at some point? -->
+    <OnClose>UIClass_Window_OnClose</OnClose>
+  </LifecycleHandlers>
+
 	<Prototype
-		onClose="Window_Class_OnClose"
+    title="Untitled Window"
 	>
 	</Prototype>
 </UIClass>

@@ -2,7 +2,6 @@
 <UI>
   <Window
     height="95"
-    onCreate="MainWindow_OnClose"
     width="345"
 	>
     <PushButton

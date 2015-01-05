@@ -14,6 +14,7 @@
     <ProjectGuid>{B59E8470-C241-410B-A50B-5090175900E3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TestPad</RootNamespace>
+    <ProjectName>ApplicationSkeletonPrototype</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

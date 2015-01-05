@@ -9,9 +9,9 @@ STRINGTABLE
 {
 	Application_Title "The Angry Button"
 
-	Application_Button_Class_Name "Button"
-	Application_Window_Class_Name "Window"
-	Application_Window_Class_OnClose "Window_Class_OnClose"
+	Application_UIClass_Button_Name "Button"
+	Application_UIClass_Window_Name "Window"
+	Application_UIClass_Window_OnClose "UIClass_Window_OnClose"
 
 	Application_MadButton_Class "Button"
 	Application_MadButton_OnClick "MadButton_OnClick"

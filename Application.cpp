@@ -59,11 +59,11 @@ namespace Application
 
 		/* Register the window class(es). */
 		{
-			OS::WindowOnCloseCallback class_on_close = Application::GetModule().getProcedure<OS::WindowOnCloseCallbackSignature>(wstos(module.getStringResource(Application_Window_Class_OnClose)).c_str());
+			OS::WindowOnCloseCallback class_on_close = Application::GetModule().getProcedure<OS::WindowOnCloseCallbackSignature>(wstos(module.getStringResource(Application_UIClass_Window_OnClose)).c_str());
 			OS::WindowClass* window_class;
 
 
-			window_class = OS::WindowClass::Register(module.getStringResource(Application_Window_Class_Name),module);
+			window_class = OS::WindowClass::Register(module.getStringResource(Application_UIClass_Window_Name),module);
 			window_class->setWindowDefaults(WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX,WS_EX_APPWINDOW,0,0,0,0);
 			window_class->extendDefaultMessageHandler(WM_CLOSE,[class_on_close](OS::Window* window,WPARAM w_param,LPARAM l_param){
 				class_on_close(*window);
@@ -76,7 +76,7 @@ namespace Application
 			OS::WindowClass* window_class;
 
 
-			window_class = OS::WindowClass::GetByName(module.getStringResource(Application_Button_Class_Name));
+			window_class = OS::WindowClass::GetByName(module.getStringResource(Application_UIClass_Button_Name));
 			window_class->setWindowDefaults(WS_TABSTOP | WS_CHILD | BS_PUSHBUTTON,0,0,0,0,0);
 
 			Application::loaded_classes.push_back(window_class);
