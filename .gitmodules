@@ -1,0 +1,3 @@
+[submodule "Library/json"]
+	path = Library/json
+	url = git@github.com:nlohmann/json.git
