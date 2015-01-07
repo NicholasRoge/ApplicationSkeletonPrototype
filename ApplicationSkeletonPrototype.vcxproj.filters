@@ -30,6 +30,9 @@
     <ClCompile Include="Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Library\json\src\json.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="XML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\json\src\json.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -58,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Xml Include="Resources\UI\Main.xml" />
-    <Xml Include="Resources\Application.xml" />
+    <Xml Include="Resources\Application.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\UIClass\PushButton.xml" />

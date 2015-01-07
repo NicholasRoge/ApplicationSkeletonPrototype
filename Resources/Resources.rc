@@ -1,6 +1,6 @@
 #include "./Resources.h"
 
-Application_Config XML "./Application.xml"
+Application_Config json "./Application.json"
 Application_UI XML "./UI/Main.xml"
 Application_UIClass_PushButton XML "./UIClass/PushButton.xml"
 Application_UIClass_Window XML "./UIClass/Window.xml"

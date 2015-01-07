@@ -1,0 +1,28 @@
+{
+	"Title": "The Angry Button",
+	"LaunchUI": "Main",
+
+	"UILayouts": {
+		"Main": {
+			"MainWindow": {
+				"Type": "Window",
+
+				"Listeners": [
+					"OnClose"
+				],
+
+				"Children": {
+					"MadButton": {
+						"Type": "Button",
+						
+						"Listeners": [
+							"OnClick",
+							"OnCreate",
+							"OnDestroy"
+						]
+					}
+				}
+			}
+		}
+	}
+}
